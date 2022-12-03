@@ -1,0 +1,67 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.parallax .parallax-content{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    z-index: +1;
+}
+
+.parallax .parallax-inner-one{
+    background-image: url(../image/bg-one.jpg);
+    height: 100vh;
+    background-position: center bottom 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax .parallax-inner-two{
+    background-image: url(../image/bg-two.jpg);
+    height: 100vh;
+    background-position: center bottom 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax .parallax-inner-three{
+    background-image: url(../image/bg-three.jpg);
+    height: 100vh;
+    background-position: center bottom 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.parallax .parallax-inner-four{
+    background-image: url(../image/bg-four.jpg);
+    height: 100vh;
+    background-position: center bottom 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.content{
+    width: 100%;
+    height: 30vh;
+    padding: 0 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
